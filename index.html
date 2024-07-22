@@ -1,6 +1,5 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,33 +18,38 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="icon" href="img/favicon.ico" sizes="any" />
-    <style>
-      /* You may write styles inside this <style> tag or within `css/style.css`. */
-    </style>
   </head>
-  <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
-
-    <!-- Not found
-      We can’t find the page
-      Sorry, the page you are looking for doesn't exist or has been moved.
-      Back to Home -->
+  <body class="h-screen">
+    <div
+      class="background flex h-full flex-col justify-center bg-cover bg-center bg-no-repeat px-5 lg:px-20"
+      style="background-image: url('./img/abstract-background.jpg')"
+    >
+      <div class="relative">
+        <p class="my-4 text-xs font-semibold text-indigo-700">Not found</p>
+        <h1 class="mb-4 text-4xl font-semibold">We can’t find the page</h1>
+        <p class="mb-8 text-neutral-600 md:mb-12">
+          Sorry, the page you are looking for doesn't exist or has been moved.
+        </p>
+        <button
+          class="w-full rounded bg-indigo-700 px-1 py-3 text-white sm:w-40"
+        >
+          Back to Home
+        </button>
+      </div>
+    </div>
 
     <!-- Attribute this challenge to yourself! -->
-    <div class="credits">
+    <!-- <div class="credits">
       A challenge by
       <a
         href="https://www.greatfrontend.com/projects?ref=challenges"
         target="_blank"
         >GreatFrontEnd Projects</a
       >. Built by
-      <a href="https://www.greatfrontend.com/u/your_username" target="_blank"
-        >Your Name</a
+      <a href="" target="_blank"
+        >Joyce</a
       >.
-    </div>
+    </div> -->
     <script src="js/index.js"></script>
   </body>
 </html>
